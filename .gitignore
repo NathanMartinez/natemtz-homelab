@@ -1,0 +1,33 @@
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+*.crt
+secrets/
+private/
+
+# Logs
+*.log
+logs/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node (if you add frontend tooling later)
+node_modules/
+dist/
+build/
+
+# Python (if you add scripts later)
+__pycache__/
+*.pyc
+.venv/
+
+# Terraform or infra state if added later
+*.tfstate
+*.tfstate.*
+.terraform/
