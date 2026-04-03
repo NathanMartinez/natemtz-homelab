@@ -31,3 +31,9 @@ __pycache__/
 *.tfstate
 *.tfstate.*
 .terraform/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
